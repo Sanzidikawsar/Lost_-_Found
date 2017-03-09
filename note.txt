@@ -1,0 +1,99 @@
+login er por logo te kno link thakbe na. 
+
+
+changed background image of index.php
+___________________
+|	          |					
+|  Initial Plan   |
+|_________________|
+
+=> User Registration (done)
+	2 ta table a ek shate data insert hote hobe. 
+=> User Login (done)
+=> Normal User go dashboard.php, admin go admin.php (done)
+
+Extra features: 
+---------------
+=> Email verification on register
+=> Forgo pasword should work
+=> captcha 
+
+___________________
+|	          |					
+| Normal User     |
+|_________________|
+=> Profile Setting (done)	
+=> List of Existing Product (done)
+	=> View, Edit, Delete (done)
+	=> should be confirmation when will be delte yes or no. 
+=> Add new product (done)
+=> product add korar por je product code ta debe oi code ta print er jonno message debe
+
+---------------
+Extra Feature
+----------------
+=> Account setting change email and pass
+	-> should be remove password from profile setting
+	-> Profile picture upload korte parbe
+=> cab be provide a profile link to other
+=> Show number (10) on exisitng product menu
+=> Show last added product 
+=> product insert korar shomoy emty data deleo jasse. atake handle kora. 
+=> Can be add blog post 
+=> Cab be suggest to admin 
+___________________
+|	          |					
+|  Admin User     |
+|_________________|
+=> Profile Setting (done)
+=> Add new user (done)	
+=> User list 
+	=> Eidt, delete, (done)
+=> Product List
+	=> Delete only (done)
+-------------
+Extra features 
+-------------
+=> Profile setting as like user
+=> User role set korte parbe
+=> User can be block for a fixed amount of time like 1 month , 5 month etc
+=> Number of all product can be see at the "existing product menu"
+=> Can be send same message to all user
+=> Cab be add blog post 
+=> Can be see the number of notication at notification bar and at least 3 message at dropdown 
+
+Note: 
+========
+
+Admin Page: 
+----------
+See all user (done)
+Delete User (done)
+Block User 
+Add user (done)
+
+Index page : 
+---------------
+Product search by product code (done)
+Prouct owner details of this specific product (done)
+
+User Page: 
+----------
+Prodeuct Code Print / Save As PDF *
+Product image uploading *
+
+Extra features: 
+--------------
+Profile picture upload 
+Search Product from admin 
+Search User from admin 
+Pagination of all product all user table. 
+
+
+do later:
+admin notification option shob jaigai korte hobe. 
+menu.php page ta ke secure korte hobe.*
+reapet password match korte hobe. *
+product details a owner er name thakbe. (done)
+user detelete er shomoy confirmation message debe. 
+make md5 password

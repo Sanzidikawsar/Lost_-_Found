@@ -31,6 +31,11 @@ a:hover { text-decoration: none; }
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
 }
 
+.navbar-header img{
+    height: 100px;
+    width: auto;
+}
+
 .logo h1 {
     padding-left: 50px;
     font-family: 'Oleo Script', cursive;

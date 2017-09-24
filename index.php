@@ -46,12 +46,13 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
 
-            <a class="navbar-brand" href="#"><img src="assets/admin/layout3/img/mylogo2.png"</a>
+            <a class="navbar-brand" href="index.php"><img src="assets/admin/layout3/img/mylogo2 .png"</a>
             <ul class="nav navbar-nav navbar-right pull-right">
                 <li><a href="index.php"></a></li>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="login.php">Login</a></li>
-                <li><a href="#">FAQs</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="faq.html">FAQs</a></li>
 
             </ul>
         </div>
@@ -63,9 +64,9 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
     <div class="row">
 
         <form class="form-wrapper cf" action="index.php" method="POST">
-            <label class="input-block-level" style="color: white;"><h4>Enter Product Code & Press Search Button</h4>
+            <label class="input-block-level" style="color: white;"><h4 style="color: red">Enter Product Code or Title & Press Search Button</h4>
             </label>
-            <input type="text" name="product_code" id="product_code" placeholder="Example: 562b51f4b2e5f" required>
+            <input type="text" name="product_code" id="product_code" placeholder="Search With Title or Product Code" required>
             <button type="submit">Search</button>
             <?php
             if (isset($all_product) && !empty($all_product)) {
@@ -109,7 +110,7 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
                 echo "<br/>";
                 echo "<br/>";
                 if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
-                    $message = "Invalid product Code ! Please try again.";
+                    $message = "Invalid product information ! Please try again.";
                     echo "<h3 style='color: #d2322d'>" . $message . "</h3>";
                 }
 

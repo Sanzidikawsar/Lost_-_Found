@@ -39,7 +39,7 @@ if (!isset($_SESSION['admin'])) {
                                         <img src="images/user.png" class="nav-avatar" />
                                         <b class="caret"></b></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="profile.php?user=<?php echo $_SESSION['username']; ?>">Your Profile</a></li>
+                                        <li><a href="mou_profile.html">Your Profile</a></li>
                                         <li><a href="profile_edit.php">Edit Profile</a></li>
                                         <li><a href="account_setting.php">Account Settings</a></li>
                                         <li class="divider"></li>

@@ -1,0 +1,44 @@
+.header{
+	height: 100px;
+	background-color: lightblue;
+}
+
+.header img{
+	height: 95px;
+	width: auto;
+}
+
+.main img{
+	height: 250px;
+	width: 180px;
+	margin-top: 10px;
+}
+
+.product{
+	margin-top: 30px;
+}
+
+.gallery img{
+	height: 150px;
+	width: auto;
+}
+
+.gallery{
+	float: left;
+}
+
+.products{
+	float: left;
+}
+
+.main{
+	background-color: antiquewhite;
+}
+
+.product{
+	background-color: antiquewhite;
+}
+
+.producs table, th, td{
+	border: 5px solid black;
+}
